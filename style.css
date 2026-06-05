@@ -107,19 +107,25 @@ img{
 
 
 .hero{
+
     background:#fff;
-    border-radius:20px;
-    padding:30px;
+    border-radius:15px;
+    padding:20px;
     margin-bottom:30px;
+    text-align:center;
+
 }
 
 .hero h1{
     font-size:42px;
-    max-width:500px;
     line-height:1.2;
+    margin-bottom:10px;
+}
+.hero p{
+    color:#999;
+    font-size:14px;
     margin-bottom:20px;
 }
-
 .search-box{
     display:flex;
     gap:10px;
@@ -345,7 +351,7 @@ img{
 
 
 .footer{
-    background:#111;
+    background:#29B24E
     color:white;
     padding:40px;
     margin-top:60px;
