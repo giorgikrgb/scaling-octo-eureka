@@ -2,83 +2,543 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:title" content="Dream House">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <meta property="og:description" content="Find the house you want easily">
+    <title>Real Estate</title>
+
+    <meta
+        name="description"
+        content="Find the house you want easily"
+    >
+
+    <meta property="og:title" content="Real Estate">
+    <meta
+        property="og:description"
+        content="Find the house you want easily"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="css/style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Dream House</title>
 </head>
 <body>
-            <header class="header"> 
-        <a href="#" class="logo">Dream House</a>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">properties</a>
-            <a href="#">about</a>
+
+    
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+
+        <nav class="nav">
+
+            <a href="#" class="active">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Sign In</a>
+
         </nav>
-        <button> contact us</button>
+
+        <button class="sell-btn">
+            Sell Something
+        </button>
+
     </header>
-    <section class="hero">
-        <h1>Find the house you want easily</h1>
-        <img src="city.jpg" alt="city">
 
-    </section>
-   <section class="properties">
 
-        <a href="second.html" class="card">
+    <main class="main-container">
 
-            <img src="rancho.jpg" alt="house">
+        
 
-            <div class="card-content">
-                <h3>Modern Villa</h3>
-                <p>New York</p>
-                <span>$450,000</span>
+        <aside class="sidebar">
+
+            <div class="filter-group">
+
+                <label>Location</label>
+
+                <select>
+                    <option>Anywhere</option>
+                </select>
+
             </div>
 
-        </a>
+            <div class="filter-group">
 
-        <a href="second.html" class="card">
+                <label>Category</label>
 
-            <img src="pool.jpg" alt="house">
+                <select>
+                    <option>Property</option>
+                </select>
 
-            <div class="card-content">
-                <h3>Luxury House</h3>
-                <p>California</p>
-                <span>$520,000</span>
             </div>
 
-        </a>
+            <div class="filter-group">
 
-        <a href="second.html" class="card">
+                <h4>Property</h4>
 
-            <img src="rancho.jpg" alt="house">
+                <label>
+                    <input type="checkbox">
+                    Houses Apartment For Sale
+                </label>
 
-            <div class="card-content">
-                <h3>Family Home</h3>
-                <p>Miami</p>
-                <span>$390,000</span>
+                <label>
+                    <input type="checkbox">
+                    Lands For Sale
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Houses For Rent
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Commercial Property
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Event Venues
+                </label>
+
             </div>
 
-        </a>
-        <a href="second.html" class="card">
+            <div class="filter-group">
 
-            <img src="second.jpg" alt="house">
+                <h4>Price Range</h4>
 
-            <div class="card-content">
-                <h3>Luxury House</h3>
-                <p>California</p>
-                <span>$520,000</span>
+                <label>
+                    <input type="checkbox">
+                    $100 - $500
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    $500 - $1000
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    $1000 - $5000
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    $5000+
+                </label>
+
             </div>
 
-        </a>
+        </aside>
 
-    </section>
-     <footer>
-        <p>Dream House © 2025</p>
+       
+
+        <section class="content">
+
+          
+
+            <section class="hero">
+
+                <h1>
+                    Find the house you want easily
+                </h1>
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        placeholder="Any city, area or address"
+                    >
+
+                    <button>
+                        Search
+                    </button>
+
+                </div>
+
+                <img
+                    src="city.jpg"
+                    alt="City"
+                >
+
+            </section>
+
+
+            <section class="ads-section">
+
+                <h2>Trending Ads</h2>
+
+                <div class="cards">
+
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="pool.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="rancho.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                    
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="second.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                    <!-- CARD 4 -->
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="pool.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="rancho.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="rancho.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="second.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                    <!-- CARD 8 -->
+
+                    <a href="second.html" class="card">
+
+                        <div class="badge">
+                            VIP TOP+
+                        </div>
+
+                        <img
+                            src="pool.jpg"
+                            alt=""
+                        >
+
+                        <div class="card-content">
+
+                            <h3>
+                                200 Acres Parcel For Sale
+                            </h3>
+
+                            <p>
+                                Kajiado, Namanga
+                            </p>
+
+                            <div class="price">
+                                1450$
+                                <span>/ month</span>
+                            </div>
+
+                            <div class="info">
+
+                                <span>5 Bedroom</span>
+
+                                <span>3 Bathroom</span>
+
+                                <span>450 Sq.m</span>
+
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div>Home</div>
+        <div>Discover</div>
+        <div>Contact Us</div>
+        <div>Sign In</div>
+
+        <div class="footer-email">
+            support@realestate.com
+        </div>
+
+        <div class="socials">
+            Facebook
+            Instagram
+            Youtube
+            Twitter
+        </div>
+
     </footer>
+
 </body>
-</html> 
+</html>
